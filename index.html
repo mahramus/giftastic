@@ -46,7 +46,7 @@
         });
 
 
-        $("button").on("click", function () {
+        $("body").on("click", "button", function () {
             var food = $(this).attr("data-food");
 
             var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
@@ -87,7 +87,7 @@
 
         // Pause/Play script
 
-        $(".gif").on("click", function () {
+        $("body").on("click", ".gif", function () {
             var state = $(this).attr("data-state");
 
             if (state === "still") {
