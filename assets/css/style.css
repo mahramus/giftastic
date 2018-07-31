@@ -1,0 +1,10 @@
+.main-container {
+    padding: 3 rem 1.5 rem;
+    text-align: center;
+    background-color: red;
+}
+
+.gif-container {
+    padding: 12px 12 px 12 px 12 px;
+    background-color: blueviolet;
+}
